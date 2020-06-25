@@ -19,7 +19,7 @@ module RailsAdmin
           end
 
           register_instance_option(:fit_image) do
-            @fit_image ||= true
+            @fit_image ||= false
           end
 
           include ::RailsAdmin::Config::Fields::Types::UploaderMethods
